@@ -1,0 +1,244 @@
+$main-font: 'Open Sans', sans-serif;
+
+$header-font: 'Righteous', cursive;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: $header-font;
+    color: white;
+    font-size: 5em;
+    text-shadow: 1px 3px 15px rgba($color: #000000, $alpha: .1)
+}
+
+h2{
+    font-family: $header-font;
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: .06em;
+}
+
+section{
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+.hero-section{
+    border-radius: 0em 5em 5em 0em;
+    box-shadow: 1px 15px 25px 5px rgba(0,0,0,0.3);
+    height: 100vh;
+    background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+    ), 
+    url('../Images/pexels-photo-167684.jpeg');
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 55%;
+    z-index: 90;
+}
+
+.content-one{
+    padding: 1.5em;
+    p{
+        text-align: right;
+        width: 50rem;
+        margin-left: auto;
+        align-self: right;
+        padding-top: 30rem;
+        color: white;
+        font-size: 3em;
+        text-shadow: 1px 3px 15px rgba($color: #000000, $alpha: .1);
+        font-family: $header-font;
+    }
+}
+
+.journey-planner{
+    width: 100%;
+    overflow: visible;
+    height: 100vh;
+    padding: 5em;
+    h2{
+        color: black;
+    }
+    .party-picker{
+        padding-top: 15vh;
+    }
+    .party-container{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: auto;
+        i{
+            font-size: 4em;
+            margin: auto;
+            display: block;
+        }   
+        input{
+            border: none;
+            border-bottom: 5px black solid;
+            margin: auto;
+            display: block;
+            width: 50%;
+            outline: none;
+            font-size: 7.5em;
+            font-family: $header-font;
+            text-align: center;
+        }
+
+    }
+    .next-step{
+        font-family: $main-font;
+        font-size: 2em;
+        text-align: right;
+        padding-top: 4em;
+        cursor: pointer;
+        transition: all ease .3s;
+    }
+    .next-step:hover{
+        color: green;
+    }
+    .date-picker{
+        padding-top: 15vh;
+        input{
+            margin: auto;
+            display: block;
+            font-size: 3em;
+            text-align: center;
+            font-family: $main-font;
+            border: 0;
+            border-bottom: 5px black solid;
+        }
+    }
+
+    .total-days{
+        display: flex;
+        padding: 2em;
+        justify-content: flex-end;
+    }
+
+    h3{
+        color: black;
+        text-align: center;
+        font-family: $main-font;
+        font-size: 2em;
+        padding: 1em;
+    }
+    img{
+        width: 30%;
+        margin: auto;
+        display: block;
+    }
+}
+
+.journey-section{
+    height: 100vh;
+}
+
+
+.option-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: white;
+    .option{
+        padding-top: 25%;
+        border: thin transparent solid;
+        border-radius: 2.5em;
+        flex: 0 0 28%;
+        padding: 1.5em;
+        margin: 1.5em; 
+        filter: brightness(20%);
+        transition: all ease .3s;
+    }
+    .option:hover{
+        box-shadow: 1px 15px 15px rgba($color: #000000, $alpha: .3);
+    }
+    p{
+        font-size: 1.5em;
+        font-family: $header-font;
+        margin: 0;
+    }
+
+    p:first-child{
+        text-align: right;
+        padding-bottom: 3rem;
+        font-size: 2em;
+    }
+    p:nth-child(2){
+        font-size:2em;
+    }
+    p:nth-child(4){
+        padding-bottom: 2em;
+    }
+    h2{
+        text-align: right;
+        color: white;
+    }
+    p:last-child{
+        text-align: right;
+    }
+    .suitable{
+        filter: none;
+    }
+    .selected{
+        border: thin red solid;
+    }
+    .option1{
+        background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+        ), 
+        url('../Images/bike.jpeg');
+        background-size: cover;
+        background-position: center;
+
+    }
+    .option2{
+        background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+        ), 
+        url('../Images/small.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    .option3{
+        background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+        ), 
+        url('../Images/large.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    .option4{
+        background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+        ), 
+        url('../Images/home.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+

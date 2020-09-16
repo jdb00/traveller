@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  color: white;
+  font-size: 5em;
+  text-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: "Righteous", cursive;
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  letter-spacing: .06em;
+}
+
+section {
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-section {
+  border-radius: 0em 5em 5em 0em;
+  -webkit-box-shadow: 1px 15px 25px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 15px 25px 5px rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../Images/pexels-photo-167684.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/pexels-photo-167684.jpeg");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
+  z-index: 90;
+}
+
+.content-one {
+  padding: 1.5em;
+}
+
+.content-one p {
+  text-align: right;
+  width: 50rem;
+  margin-left: auto;
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+  padding-top: 30rem;
+  color: white;
+  font-size: 3em;
+  text-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Righteous", cursive;
+}
+
+.journey-planner {
+  width: 100%;
+  overflow: visible;
+  height: 100vh;
+  padding: 5em;
+}
+
+.journey-planner h2 {
+  color: black;
+}
+
+.journey-planner .party-picker {
+  padding-top: 15vh;
+}
+
+.journey-planner .party-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.journey-planner .party-container i {
+  font-size: 4em;
+  margin: auto;
+  display: block;
+}
+
+.journey-planner .party-container input {
+  border: none;
+  border-bottom: 5px black solid;
+  margin: auto;
+  display: block;
+  width: 50%;
+  outline: none;
+  font-size: 7.5em;
+  font-family: "Righteous", cursive;
+  text-align: center;
+}
+
+.journey-planner .next-step {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  padding-top: 4em;
+  cursor: pointer;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.journey-planner .next-step:hover {
+  color: green;
+}
+
+.journey-planner .date-picker {
+  padding-top: 15vh;
+}
+
+.journey-planner .date-picker input {
+  margin: auto;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  border-bottom: 5px black solid;
+}
+
+.journey-planner .total-days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.journey-planner h3 {
+  color: black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  padding: 1em;
+}
+
+.journey-planner img {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+.journey-section {
+  height: 100vh;
+}
+
+.option-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  color: white;
+}
+
+.option-list .option {
+  padding-top: 25%;
+  border: thin transparent solid;
+  border-radius: 2.5em;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 28%;
+          flex: 0 0 28%;
+  padding: 1.5em;
+  margin: 1.5em;
+  -webkit-filter: brightness(20%);
+          filter: brightness(20%);
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.option-list .option:hover {
+  -webkit-box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.option-list p {
+  font-size: 1.5em;
+  font-family: "Righteous", cursive;
+  margin: 0;
+}
+
+.option-list p:first-child {
+  text-align: right;
+  padding-bottom: 3rem;
+  font-size: 2em;
+}
+
+.option-list p:nth-child(2) {
+  font-size: 2em;
+}
+
+.option-list p:nth-child(4) {
+  padding-bottom: 2em;
+}
+
+.option-list h2 {
+  text-align: right;
+  color: white;
+}
+
+.option-list p:last-child {
+  text-align: right;
+}
+
+.option-list .suitable {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.option-list .selected {
+  border: thin red solid;
+}
+
+.option-list .option1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../Images/bike.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/bike.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.option-list .option2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../Images/small.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/small.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.option-list .option3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../Images/large.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/large.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.option-list .option4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../Images/home.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/home.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
