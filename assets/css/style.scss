@@ -56,7 +56,6 @@ section{
     padding: 1.5em;
     p{
         text-align: right;
-        width: 50rem;
         margin-left: auto;
         align-self: right;
         padding-top: 30rem;
@@ -70,13 +69,13 @@ section{
 .journey-planner{
     width: 100%;
     overflow: visible;
-    height: 100vh;
-    padding: 5em;
+    max-height: 100vh;
+    padding: 0 5em;
     h2{
         color: black;
     }
     .party-picker{
-        padding-top: 15vh;
+        padding-top: 10vh;
     }
     .party-container{
         display: flex;
@@ -105,7 +104,7 @@ section{
         font-family: $main-font;
         font-size: 2em;
         text-align: right;
-        padding-top: 4em;
+        padding-top: 2em;
         cursor: pointer;
         transition: all ease .3s;
     }
@@ -113,7 +112,7 @@ section{
         color: green;
     }
     .date-picker{
-        padding-top: 15vh;
+        padding-top: 10vh;
         input{
             margin: auto;
             display: block;
@@ -140,6 +139,7 @@ section{
     }
     img{
         width: 30%;
+        max-height: 10em;
         margin: auto;
         display: block;
     }
